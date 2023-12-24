@@ -1,5 +1,11 @@
+import WordWrapper from "./components/WordWrapper";
+
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <>
+      <WordWrapper />
+    </>
+  );
 }
 
 export default App;
